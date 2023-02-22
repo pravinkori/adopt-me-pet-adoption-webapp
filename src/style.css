@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: #fdfbf2;
-    /* background-image: url(http://pets-images.dev-apis.com/pets/wallpaperB.jpg); */
+    background-color: #81a69b;
+    background-image: url(http://pets-images.dev-apis.com/pets/wallpaperC.jpg);
     margin: 0;
-    font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .search-params {
@@ -96,7 +96,7 @@ header>a,
     height: 76px;
     overflow: hidden;
     text-indent: -9999px;
-    margin: 20px 10px;
+    margin: 20px 0;
 }
 
 .pet h2 {
@@ -176,34 +176,27 @@ header {
 
 .search-params label {
     display: block;
-    font-size: 1.5rem;
-    font-weight: 500;
     width: 60px;
 }
 
 .search-params input,
 .search-params select {
-    padding: 1em;
     margin-bottom: 30px;
-    font-family: Poppins;
     font-size: 18px;
     height: 30px;
     width: 325px;
-    border: none;
-    border-radius: 20px;
 }
 
 .search-params button,
 #modal button,
 #modal a,
 .details button {
-    background-color: #d44227;
+    background-color: #ad343e;
     padding: 5px 25px;
     color: white;
     font-size: 18px;
-    font-family: Poppins;
-    border: none;
-    border-radius: 100px;
+    border: #333 1px solid;
+    border-radius: 5px;
     display: block;
     margin: 0 auto;
     cursor: pointer;
@@ -216,8 +209,7 @@ header {
 }
 
 .search-params button:hover {
-    background-color: #e4634d;
-    transition: background .8s;
+    background-color: #122622;
 }
 
 .search-params button:active {
