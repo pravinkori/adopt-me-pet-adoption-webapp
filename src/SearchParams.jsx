@@ -37,7 +37,7 @@ const SearchParams = () => {
                     <input
                         id="location"
                         value={location}
-                        placeholder="Location"
+                        placeholder="Enter the location"
                         onChange={(e) => setLocation(e.target.value)}
                     />
                 </label>
