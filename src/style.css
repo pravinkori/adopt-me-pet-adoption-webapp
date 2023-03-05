@@ -39,6 +39,9 @@ body {
 }
 
 .details {
+    border-radius: 6px;
+    box-shadow: 5px 5px 0px 0px #000;
+    border: 2px solid #000;
     width: 1100px;
     margin: 0 auto;
     padding: 15px;
@@ -129,6 +132,7 @@ header {
 }
 
 .details p {
+    font-weight: 400;
     line-height: 1.5;
     padding: 0px 15px;
 }
@@ -156,6 +160,9 @@ header {
 .carousel>img {
     max-width: 45%;
     max-height: 400px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 0px 0px #000;
+    border: 2px solid #000;
 }
 
 .carousel-smaller {
@@ -198,7 +205,7 @@ header {
     width: 325px;
 }
 
-/* 
+
 .search-params button,
 #modal button,
 #modal a,
@@ -216,47 +223,12 @@ header {
     display: block;
     cursor: pointer;
     transition: background .5s;
-} */
-
-.search-params button,
-#modal button,
-#modal a,
-.details button {
-    margin: 0 auto;
-    padding: 10px 25px;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    background-color: #222222;
-    border-radius: 0.5em;
-    border: solid 1px #393939;
-    box-shadow: #ffffff1a 2px 2px;
-    transition: all .3s;
-    cursor: pointer;
-    will-change: transform;
 }
-
-/* .search-params button,
-#modal button,
-#modal a,
-.details button:hover {
-    border: solid 1px var(--orange);
-    box-shadow: var(--orange) 1px 1px 0 0, var(--purple) 2px 2px 0 1px, var(--blue) 4px 4px 0 1px, var(--green) 6px 6px 0 1px;
-    transform: scale(1.02);
-} */
 
 #modal a {
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
-}
-
-.search-params button:hover {
-    border: solid 1px var(--orange);
-    box-shadow: #f2711c 1px 1px 0 0, #a333c8 2px 2px 0 1px, #2185d0 4px 4px 0 1px, #21ba45 6px 6px 0 1px;
-    transform: scale(1.02);
-
 }
 
 .search-params button:active {
@@ -265,7 +237,6 @@ header {
 
 .search-params button:focus {
     border: 1px solid cornflowerblue;
-    transform: translateY(4px);
 }
 
 #modal {
